@@ -1,0 +1,13 @@
+@mixin clock-style {
+  font-size: 175px;
+  color: $text-color;
+  margin: auto;
+  text-align: center;
+}
+
+@mixin main-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

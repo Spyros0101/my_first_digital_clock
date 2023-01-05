@@ -1,0 +1,19 @@
+@import '../css/abstract/mixins';
+@import '../css/base/colors';
+@import '../css/base/reset';
+
+body {
+  background: $bg-color;
+}
+
+main {
+  @include main-display;
+}
+
+.clock {
+  @include clock-style;
+}
+
+span {
+  font-size: 100px;
+}
