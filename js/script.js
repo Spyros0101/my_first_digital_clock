@@ -4,16 +4,16 @@ function showTime(){
   let hour = time.getHours();
   let min = time.getMinutes();
   let sec = time.getSeconds();
-  let am_pm = '<span>AM</span>';
+  let am_pm = 'AM';
 
   if (hour > 12){
       hour = 12;
-      am_pm = "PM";
+      am_pm = "<span>PM</span>";
   }
 
   if (hour == 0){
       hour = 12;
-      am_pm = "AM";
+      am_pm = "<span>AM</span>";
   }
 
   hour = hour < 10 ? "0" + hour : hour;
